@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>operator</title>
+    <script>
+      //Equal operators (==) (only for values)
+      var a = 100;
+      var b = "1002";
+      if (a == b) {
+        console.log("Equals to");
+      } else {
+        console.log("not equal to");
+      }
+
+      //strict not equal to(===) (for both values and datatypes)
+      var c = 1000;
+      var d = "1000";
+      //var str = 19; //not equal datatype is same but not values
+      if (c === d) {
+        console.log("Equals to");
+      } else {
+        console.log("not equal to");
+      }
+
+      //ternary operator
+      var age = prompt("enter ur age");
+      var status = age >= 18 ? "Adult" : "Minor";
+      console.log(status);
+    </script>
+  </head>
+  <body></body>
+</html>
